@@ -1,0 +1,113 @@
+html, body {margin: 0; overflow: hidden}
+
+body{
+    font-variant: small-caps;
+    font-size: 2.5vw;
+}
+
+#task{
+    color:rgb(247, 37, 133);
+    text-shadow: black 0px 0px 10px;
+    user-select: none;
+    font-size: 3vw;
+    position: absolute;
+    margin: 0;
+    left: 2vw;
+    top: 8vh;
+}
+
+#exit{
+    position: absolute;
+    text-align: center;
+    height: 5vw;
+    width: 5vw;
+    top: 3vh;
+    left: 94vw;
+    border: 0.25vw black solid;
+    font-size: 4vw;
+    border-radius: 50%;
+    background: rgba(150, 154, 151,0.5);
+    user-select: none;
+}
+
+#progress{
+    position: fixed;
+    left: 50%;
+    bottom: 1.5vh;
+    border: 0.2vw black solid;
+    border-radius: 25px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    height: 6vh;
+    width: 50vw;
+}
+
+#progress::-webkit-progress-value { 
+    background-color: rgba(0, 7, 10, 0.8);
+    border-radius: 25px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgba(150, 154, 151, 0.8); 
+    border-radius: 25px;
+}
+
+#current_word, #wordsGuessed{
+    position: absolute;
+    left: 5vw;
+    top: 30vh;
+    color:rgb(37, 247, 72);
+    text-shadow: black 0px 0px 10px;
+    user-select: none;
+    background-color:rgba(150, 154, 151,0.5);
+    width: auto;
+    text-align: center;
+    border: 0.25vw black solid;
+    border-radius: 10px;
+}
+
+#wordsGuessed{
+    color:rgb(131, 181, 255);
+    left: 5vw;
+    top: 70vh;
+}
+
+#current_predicted_word{
+    position: absolute;
+    left: 5vw;
+    top: 55vh;
+    color:rgb(247, 37, 37);
+    text-shadow: black 0px 0px 10px;
+    user-select: none;
+    background-color:rgba(150, 154, 151,0.5);
+    width: auto;
+    text-align: center;
+    border: 0.25vw black solid;
+    border-radius: 10px;
+}
+
+#reset{
+    position: absolute;
+    text-align: center;
+    height: 8vh;
+    width: auto;
+    top: 25vh;
+    left: 82.5vw;
+    border: 0.25vw black solid;
+    background: rgba(150, 154, 151,0.5);
+    font-size: 3vw;
+    user-select: none;
+}
+
+h1{
+    user-select: none;
+}
+
+canvas{
+    position: absolute;
+    top: 20vh;
+    left: 50vw;
+    border: 0.25vw black solid;
+    border-radius: 20px;
+    overflow: hidden;
+}

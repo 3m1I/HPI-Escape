@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="HausABC.css">
+    <script src="script.js"></script>
+    <title>Cafe</title>
+</head>
+<body style="background: url('https://i.ibb.co/47Bp68y/cafe.jpg') no-repeat center fixed; background-size: cover;">
+    <h3 id="task" draggable="false">Füttere das Einhorn!</h3>
+
+    <img id="unicorn" src="https://i.ibb.co/nBYQKZV/unicorn-3637428-1280.png" alt="pink unicorn" draggable="false">
+    <div id="unicorndrop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+    <progress value="0" max="3" id="progress"></progress>
+    <button type="button" id="exit" onclick="exit()">
+        X
+    </button>
+
+    <img id="1" class="apple" src="https://i.ibb.co/vsFZgfx/apple-6002002-1280.png" alt="apple" draggable="true" ondragstart="drag(event)">
+    <img id="2" class="apple" src="https://i.ibb.co/vsFZgfx/apple-6002002-1280.png" alt="apple" draggable="true" ondragstart="drag(event)">
+    <img id="3" class="apple" src="https://i.ibb.co/vsFZgfx/apple-6002002-1280.png" alt="apple" draggable="true" ondragstart="drag(event)">
+    <img id="4" class="apple" src="https://i.ibb.co/vsFZgfx/apple-6002002-1280.png" alt="apple" draggable="true" ondragstart="drag(event)">
+    <img id="5" class="apple" src="https://i.ibb.co/vsFZgfx/apple-6002002-1280.png" alt="apple" draggable="true" ondragstart="drag(event)">
+    <img id="6" class="apple" src="https://i.ibb.co/vsFZgfx/apple-6002002-1280.png" alt="apple" draggable="true" ondragstart="drag(event)">
+    <img id="7" class="apple" src="https://i.ibb.co/vsFZgfx/apple-6002002-1280.png" alt="apple" draggable="true" ondragstart="drag(event)">
+    <img id="8" class="apple" src="https://i.ibb.co/vsFZgfx/apple-6002002-1280.png" alt="apple" draggable="true" ondragstart="drag(event)">
+</body>
+</html>

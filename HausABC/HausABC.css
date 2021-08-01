@@ -1,0 +1,94 @@
+html, body {margin: 0; overflow: hidden}
+
+body{
+    font-variant: small-caps;
+    font-size: 40px;
+}
+
+#task{
+    color:rgb(247, 37, 133);
+    text-shadow: black 0px 0px 10px;
+    user-select: none;
+    font-size: 3vw;
+    position: absolute;
+    margin: 0;
+    left: 2vw;
+    top: 8vh;
+}
+
+
+#exit{
+    position: absolute;
+    text-align: center;
+    height: 5vw;
+    width: 5vw;
+    top: 3vh;
+    left: 94vw;
+    border: 0.25vw black solid;
+    font-size: 4vw;
+    border-radius: 50%;
+    background: rgba(150, 154, 151,0.5);
+    user-select: none;
+}
+
+#progress{
+    position: fixed;
+    left: 50%;
+    bottom: 1.5vh;
+    border: 0.2vw black solid;
+    border-radius: 25px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    height: 6vh;
+    width: 50vw;
+}
+
+#progress::-webkit-progress-value { 
+    background-color: rgba(0, 7, 10, 0.8);
+    border-radius: 25px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgba(150, 154, 151, 0.8); 
+    border-radius: 25px;
+}
+
+#unicorn{
+    position: absolute;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height: 55vh;
+    width: auto;
+    top: 42vh;
+    left: 8vw;
+    user-select: none;
+}
+
+#unicorndrop{
+    height: 55vh;
+    width: 24vw;
+    position: absolute;
+    top: 42vh;
+    left: 10vw;
+}
+
+.apple{
+    height: 8vh;
+    width: auto;
+    position: absolute;
+}
+
+#phone{
+    position: absolute;
+    height: 100vh;
+    width: 150vh;
+    top: 8vh;
+    left: 16vw;
+}
+canvas{
+    position: absolute;
+    width: 18vw !important;
+    height: 65vh !important;
+    top: 22vh;
+    left: 41.2vw;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="HausABC2.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="script2.js"></script>
+    <title>Seminarraum</title>
+</head>
+<body style="background: url('https://i.ibb.co/NW2bhmn/IMG-20210726-155740.jpg') no-repeat center fixed; background-size: cover;">
+    <progress value="2" max="3" id="progress"></progress>
+    <h2 id="wordsGuessed" draggable="false">0/3</h2>
+    <h3 id="task" draggable="false">Zeichne den grünen Begriff und lass den Computer raten!</h3>
+    <button type="button" id="exit" onclick="exit()">
+        X
+    </button>
+    <button type="button" id="reset" onclick="reset()">Reset!</button>
+    <h1 id="current_word" draggable="false"></h1>
+    <h1 id="current_predicted_word" draggable="false">Loading...</h1>
+</body>
+</html>
